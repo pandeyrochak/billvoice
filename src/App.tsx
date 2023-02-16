@@ -1,11 +1,12 @@
 import "./App.css";
-import { dummyLogo } from "./utils/exports";
+import LoginPage from "./pages/Login";
+import { NewInvoice, Signup } from "./utils/exports";
 
 function App() {
   return (
-    <div className="flex flex-col gap-5 justify-center items-center text-4xl text-teal-100 h-full">
-      <img src={dummyLogo} alt="brand-logos" />
-      Typescript + React + Tailwindcss
+    <div className="px-10 sm:container sm:mx-auto pt-10 h-full w-full">
+      {/* <NewInvoice /> */}
+      <Signup />
     </div>
   );
 }
